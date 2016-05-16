@@ -5,6 +5,7 @@ This module makes creating pages in the CMS better. In like, every single way.
 ## Installation
 
 `composer require unclecheese/silverstripe-page-gallery`
+
 `cd silverstripe-page-gallery && npm install`
 
 ## OK, what does it do?
@@ -104,7 +105,7 @@ Indeed. It would make sense if a dev environment could inject a Node based scree
 
 ### If a page doesn't exist in the tree, it kind of gets the shaft.
 
-Potentially we could create a temporary one just for the screenshot and fill it with dummy content?
+Potentially we could create a temporary one just for the screenshot, fill it with dummy content, then delete it?
 
 # Tests
 
