@@ -1,6 +1,6 @@
 {
   "name": "unclecheese/silverstripe-page-gallery",
-  "description": "Displays screenshots of each of associated templates when selecting a page type.",
+  "description": "Displays screenshots of rendered templates when selecting a page type.",
   "type": "silverstripe-module",
   "keywords": [
     "silverstripe",
