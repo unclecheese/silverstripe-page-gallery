@@ -1,0 +1,10 @@
+PageGalleryTestPage_ExclusionPage:
+  primary:
+    ID: 1
+PageGalleryTestPage_IDPage:
+  primary:
+    ID: 123
+PageGalleryTestPage_LinkPage:
+  primary:
+    ID: 321
+    URLSegment: 'test-link'

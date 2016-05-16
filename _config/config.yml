@@ -1,0 +1,27 @@
+---
+Name: page-gallery
+---
+Injector:
+  PageGalleryProcess:
+    class: Symfony\Component\Process\Process
+UncleCheese\PageGallery\PageGalleryBuilder:
+  screen_width: 1200
+  screen_height: 800
+  exclude:
+    - VirtualPage
+    - RedirectorPage
+  instance_map: {}
+  project_screenshot_dir: 'mysite/images/screenshots'
+PageGalleryUI:
+  image_width: 300
+  image_height: 200
+  default_image: 'silverstripe-page-gallery/images/default.png'
+
+CMSPageAddController:
+  extensions:
+    - UncleCheese\PageGallery\CMSPageAddControllerGalleryExtension
+LeftAndMain:
+  extra_requirements_css:
+    - 'silverstripe-page-gallery/css/page-gallery.css'
+  extra_requirements_javascript:
+    - 'silverstripe-page-gallery/javascript/page-gallery.js'

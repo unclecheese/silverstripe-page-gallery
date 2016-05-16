@@ -1,0 +1,43 @@
+#PageType.imageoptionset ul li {
+    float: none;
+    width: auto;
+    padding: 0;
+    overflow: hidden;
+    border:0;
+    border-image:none;
+}
+#PageType.imageoptionset ul li.disabled {
+    display:none;
+}
+#PageType.imageoptionset ul li label {
+    float:none;
+}
+#PageType.imageoptionset ul li:hover,
+#PageType.imageoptionset ul li.selected {
+    background:transparent;
+}
+#PageTypeDisabled ul li {
+    color:#aaa;
+    opacity:0.5;
+}
+form.cms-add-form .toggle-disabled-pagetypes label {
+    display:inline;
+}
+
+.toggle-disabled-pagetypes {
+    margin-left:5px;
+}
+.toggle-disabled-pagetypes a {
+    color: #666;
+    font-size:13px;
+    padding-bottom:5px;
+    font-weight:700;
+}
+.toggle-disabled-pagetypes a:hover {
+    text-decoration:none;
+}
+
+.toggle-disabled-pagetypes a.active {
+    border-bottom:3px solid #ccc;
+    text-decoration:none;
+}

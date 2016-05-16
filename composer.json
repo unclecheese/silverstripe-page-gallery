@@ -1,0 +1,27 @@
+{
+  "name": "unclecheese/silverstripe-page-gallery",
+  "description": "Displays screenshots of each of associated templates when selecting a page type.",
+  "type": "silverstripe-module",
+  "keywords": [
+    "silverstripe",
+    "page",
+    "screenshot",
+    "template"
+  ],
+  "license": "GNU",
+  "authors": [
+    {
+      "name": "Uncle Cheese",
+      "email": "unclecheese@leftandmain.com"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "~3.1",
+    "silverstripe/cms": "~3.1",
+    "unclecheese/silverstripe-image-optionset": "*",
+    "symfony/process": "^3.0"
+  },
+  "extras": {
+    "installer-name": "silverstripe-page-gallery"
+  }
+}
